@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset = "utf-8"/>
+        <title>Proyecto con JavaScript</title>
+        <!--Estilos CSS-->
+        <link rel = "stylesheet" type = "text/css" href = "css/styles.css"/>
+        <link id = "theme" rel = "stylesheet" type = "text/css" href = "css/green.css"/>
+
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!--Slider-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <!--Moment js-->
+        <script src = 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/moment.min.js'></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.3/locale/es-us.min.js"></script>
+
+        <!--Mis Scripts-->
+        <script type="text/javascript" src = "js/main.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    </head>
+    <body>
+        <div id = "selectorTheme">
+            <div id = "toGreen">
+            </div>
+            <div id = "toRed">
+            </div>
+            <div id = "toBlue"></div>
+        </div>
+            <section id = "global">
+                <!--Cabecera-->
+                <header>
+                    <div id= "logo">
+                        <h1>Proyecto JS</h1>
+                    </div>
+                    <div class = "clearfix"></div>
+                    <nav id = "menu">
+                        <ul>
+                            <li><a href = "index.html">Inicio</a></li>
+                            <li><a href = "reloj.html">Reloj</a></li>
+                            <li><a href = "about.html">Sobre mi</a></li>
+                            <li><a href = "contact.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </header>
+                <!--Silder-->
+                <div id = "silder">
+                    <div class="galeria">
+                        <div><img src="img/hojas.jpg" title="Hojas"></div>
+                        <div><img src="img/rojo.jpg" title="Rojo"></div>
+                        <div><img src="img/cielo.jpg" title="Cielo"></div>
+                      </div>
+                </div>
+                <!--Contenido-->
+                <section id = "content">
+                    <div id = "posts">
+                        <!--Cargar post desde un json-->
+                    </div>
+                    <aside id = "sidebar">
+                        <div id = "about">
+                            <h4><span>¿Quién soy?</span></h4>
+                            <img src = "img/caracol.jpg">
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        </div>
+                        <div id = "login">
+                            <h4><span>Identifícate</span></h4>
+                            <form>
+                                <label for = "name">
+                                    Nombre
+                                </label>
+                                <input type = "text" name = "name" id = "formName"/>
+
+                                <label for = "email">
+                                    Correo
+                                </label>
+                                <input type = "text" name = "email"/>
+
+                                <label for = "password">
+                                    Contraseña
+                                </label>
+                                <input type = "password" name = "password"/>
+
+                                <input type = "submit" value = "Entrar"/>
+
+                            </form>
+                        </div>
+                    </aside>
+                    <div class = "clearfix"></div>
+                </section>
+            </section>
+            <footer>
+                Master de JavaScript Axel Chaves
+
+                <a href = "#" class = "subir">Ir Arriba 🡹</a>
+            </footer>
+    </body>
+</html>
